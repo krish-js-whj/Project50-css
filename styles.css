@@ -1,0 +1,49 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  
+}
+body {
+  background-color: whitesmoke;
+  align-content: center;
+}
+
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  align-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+
+}
+
+.grid img {
+    float: right;
+border: 2px solid black;
+  border-radius: 50px;
+ 
+}
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px;
+  align-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 310px;
+  height: 500px;
+  font-family: serif;
+  font-style: italic;
+}
