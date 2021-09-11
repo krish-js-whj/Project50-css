@@ -21,16 +21,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   font-family: sans-serif;
-  align-content: space-around;
+  align-content: space-evenly;
   align-items: center;
   background-color: whitesmoke;
 
 }
 
 .grid img {
-    float: right;
-border: 2px solid black;
-  border-radius: 50px;
+    position:relative;
+    top:50%;
+    left:25%;
+    
  
 }
 .languages {
